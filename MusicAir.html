@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section0">
+        <div class="main">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" style="color:white" onclick="display('section1')">Sign In <i class="fa-solid fa-user"></i></a>
+                        <a class="nav-link" href="#" style="color:white">Settings</a>
+                    </div>
+                </div>
+            </nav>
+            <center>
+                <div class="bod">
+                    <center>
+                        <div class="c">
+                            <br /><br />
+                            <div class="d-flex flex-row justify-content-center">
+                                <div>
+                                    <p style="font-weight: bolder;">Ultimated Songs, <br />Playlists and more</p>
+                                    <p style="font-size:30px;">Start your day with your favourite music <i class="fa-solid fa-music"></i></p>
+                                </div>
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:50vw;">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://content.tupaki.com/en/feeds/2023/07/24/133995-b.webp" class="d-block w-100" alt="..." />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://www.koimoi.com/wp-content/new-galleries/2024/10/game-changer-pre-box-office-business-ram-charans-magnum-opus-to-earn-big-in-exchange-of-theatrical-rights-in-telugu-states-01.jpg" class="d-block w-100" alt="..." />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://static.tnn.in/thumb/msid-109110665,thumbsize-90036,width-1280,height-720,resizemode-75/109110665.jpg?quality=100" class="d-block w-100" alt="..." />
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                    <p style="font-size:25px;padding:20px">Ready to Listen? Enter your email to create or restart your membership.</p>
+                    <div class="container d-flex flex-row justify-content-center">
+                        <div class="row">
+                            <input type="text" class="sbox col-xs-6" placeholder="Email Address" required="" style="font-size: large; border:1px white solid;width: 220px;padding:10px;">
+                            <button type="submit" class="sbox btn btn-danger col-xs-6" style="font-size: large; background-color: red; text-align:center;" onclick="display('section1')"><b>Get Started <i class="fa-solid fa-caret-right"></i></b></button>
+                        </div>
+                    </div>
+                    <p style="font-size: 40px;">Here are some popular music playlists you may know</p>
+                    <div class=" container d-flex flex-row justify-content-center">
+                        <div class="row">
+                            <div class="eg col-xs-6"></div>
+                            <div class="eg col-xs-6" style="background-image:url('https://m.media-amazon.com/images/M/MV5BNTcwNDFkM2EtOWRjZS00Y2VjLTg0ZGEtMzJmN2ZlZjVkYjU1XkEyXkFqcGc@._V1_QL75_UX190_CR0,8,190,281_.jpg');"></div>
+                        </div>
+                    </div>
+                    <center>
+                        <div class="btn" style="width:20vw;color:white;font-size:20px;border:3px white solid;background-color:black;border-radius:25px;">AND MORE</div>
+                    </center>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <div id="section1">
+        <div class="z bg-light m-auto text-center d-flex flex-column justify-content-center">
+            <h1>Welcome to MusicAir</h1>
+            <p>Login Here to continue</p>
+            <div class="y">Enter your Mobile Number :- <input type="text" placeholder="Enter your mobile number" required="" />
+                <button class="btn btn-primary">Get OTP</button>
+            </div>
+            <div class="y">Enter OTP :- <input type="text" placeholder="Enter OTP" /><br /><br />
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Submit
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Welcome to MusicAir</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://img.freepik.com/free-psd/3d-yellow-thumbsup-emoji-icon-transparent-background_84443-29365.jpg?t=st=1738856242~exp=1738859842~hmac=b4ee0880a4fdacb73f77b4c08ed431a95b17096f90d838db853df05601d735af&w=740" alt="" style="width:50px; height:50px" />
+                                Login Successful. Enjoy your favourite music.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="display('section2')">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('section0')">Go Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="section2">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="" style="color:white">
+                    <div class="p-2">
+                        <h1>Latest Telugu</h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="d-flex flex-row col-12 col-md-6" onclick="display('section3')">
+                                    <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvVUE2ErFOyZLJJBcWO_9sqTXYXv9pZl8tGqo5ceyHk9Z-Z0piUYl0iyhDIyvU5lWqRZafeA" alt="" class="r1 p-3" /></div>
+                                    <div class="d-flex flex-column mt-5">
+                                        <h3>Game Changer</h3>
+                                        <p>Album</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row col-12 col-md-6" onclick="display('section4')">
+                                    <div><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTL8jb9-cRxNg-xbOFBFo8tJdJi_djkeSBF1EuNIwVO6me2-_ba" alt="" class="r1 p-3" /></div>
+                                    <div class="d-flex flex-column mt-5">
+                                        <h3>Devara</h3>
+                                        <p>Album</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row col-12 col-md-6" onclick="display('section5')">
+                                    <div><img src="https://m.media-amazon.com/images/M/MV5BNWU1ZWFhNGQtZDhlZC00ZWFlLTlmNmEtN2VmYmZiN2Y5ZmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="" class="r1 p-3" /></div>
+                                    <div class="d-flex flex-column mt-5">
+                                        <h3>Pushpa 2</h3>
+                                        <p>Album</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row col-12 col-md-6" onclick="display('section6')">
+                                    <div><img src="https://resizing.flixster.com/Z_sVCiKKoq71XF9N70SUjQjLqys=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzNkZjkxYWVjLTdkMzktNGQ3Yy1iMzljLTM4NWI0MTFmZjM0Zi5qcGc=" alt="" class="r1 p-3" /></div>
+                                    <div class="d-flex flex-column mt-5">
+                                        <h3>Hi Nanna</h3>
+                                        <p>Album</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row col-12 col-md-6" onclick="display('section7')">
+                                    <div><img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Adipurush_poster.jpeg" alt="" class="r1 p-3" /></div>
+                                    <div class="d-flex flex-column mt-5">
+                                        <h3>Aadhipurush</h3>
+                                        <p>Album</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row col-12 col-md-6" onclick="display('section8')">
+                                    <div><img src="https://upload.wikimedia.org/wikipedia/en/d/d9/Saripodhaa_Sanivaaram.jpg" alt="" class="r1 p-3" /></div>
+                                    <div class="d-flex flex-column mt-5">
+                                        <h3>Saripodha Sanivaaram</h3>
+                                        <p>Album</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <center>
+                            <a type="button" class="btn btn-outline-light" href="https://open.spotify.com/">Browse More</a>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section3">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="color:white">
+                    <div class="p-3">
+                        <h1>Latest Telugu</h1>
+                        <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvVUE2ErFOyZLJJBcWO_9sqTXYXv9pZl8tGqo5ceyHk9Z-Z0piUYl0iyhDIyvU5lWqRZafeA" alt="" class="r1 p-3" /></div>
+                        <div class="d-flex flex-column mt-5">
+                            <h3>Game Changer</h3>
+                            <p>Album</p>
+                        </div>
+                        <div>
+                            <iframe style="border-radius:12px;width:100%" src="https://open.spotify.com/embed/album/3wuQ79aExSzvo3n5tmM9Yx?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-outline-light" onclick="display('section2')">Go Back</button>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section4">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="color:white">
+                    <div class="p-3">
+                        <h1>Latest Telugu</h1>
+                        <div><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTL8jb9-cRxNg-xbOFBFo8tJdJi_djkeSBF1EuNIwVO6me2-_ba" alt="" class="r1 p-3" /></div>
+                        <div class="d-flex flex-column mt-5">
+                            <h3>Devara</h3>
+                            <p>Album</p>
+                        </div>
+                        <div>
+                            <iframe style="border-radius:12px;width:100%" src="https://open.spotify.com/embed/playlist/5Ll5qNCwKTcYl8XazLZ44Z?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-outline-light" onclick="display('section2')">Go Back</button>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section5">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="color:white">
+                    <div class="p-3">
+                        <h1>Latest Telugu</h1>
+                        <div><img src="https://m.media-amazon.com/images/M/MV5BNWU1ZWFhNGQtZDhlZC00ZWFlLTlmNmEtN2VmYmZiN2Y5ZmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="" class="r1 p-3" /></div>
+                        <div class="d-flex flex-column mt-5">
+                            <h3>Pushpa 2</h3>
+                            <p>Album</p>
+                        </div>
+                        <div>
+                            <iframe style="border-radius:12px;width:100%" src="https://open.spotify.com/embed/album/19wxNqNBGMba438PzfG4xm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-outline-light" onclick="display('section2')">Go Back</button>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section6">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="color:white">
+                    <div class="p-3">
+                        <h1>Latest Telugu</h1>
+                        <div><img src="https://resizing.flixster.com/Z_sVCiKKoq71XF9N70SUjQjLqys=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzNkZjkxYWVjLTdkMzktNGQ3Yy1iMzljLTM4NWI0MTFmZjM0Zi5qcGc=" alt="" class="r1 p-3" /></div>
+                        <div class="d-flex flex-column mt-5">
+                            <h3>Hi Nanna</h3>
+                            <p>Album</p>
+                        </div>
+                        <div>
+                            <iframe style="border-radius:12px;width:100%" src="https://open.spotify.com/embed/album/1dpKR9xGrVPqN4l78ymrKD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-outline-light" onclick="display('section2')">Go Back</button>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section7">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="color:white">
+                    <div class="p-3">
+                        <h1>Latest Telugu</h1>
+                        <div><img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Adipurush_poster.jpeg" alt="" class="r1 p-3" /></div>
+                        <div class="d-flex flex-column mt-5">
+                            <h3>Aadhipurush</h3>
+                            <p>Album</p>
+                        </div>
+                        <div>
+                            <iframe style="border-radius:12px;width:100%" src="https://open.spotify.com/embed/album/0zRFnm1hqjtY0c7ozMK2Lh?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-outline-light" onclick="display('section2')">Go Back</button>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section8">
+        <div class="bg-light">
+            <div class="main">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" style="font-family: Bree Serif" href="#">MusicAir</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" style="color:white">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" style="color:white">Settings</a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="color:white">
+                    <div class="p-3">
+                        <h1>Latest Telugu</h1>
+                        <div><img src="https://upload.wikimedia.org/wikipedia/en/d/d9/Saripodhaa_Sanivaaram.jpg" alt="" class="r1 p-3" /></div>
+                        <div class="d-flex flex-column mt-5">
+                            <h3>Saripodha Sanivaaram</h3>
+                            <p>Album</p>
+                        </div>
+                        <div>
+                            <iframe style="border-radius:12px;width:100%" src="https://open.spotify.com/embed/album/7JKtsiV6oNgr4wGMHpAW0Q?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-outline-light" onclick="display('section2')">Go Back</button>
+                        </center>
+                    </div>
+                    <!-- <center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1cx7d9jal1EPuGwzoWNxF8?utm_source=generator" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></center> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+
+
+</html>
