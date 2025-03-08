@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/999/709/249/abstract-backgrounds-minimalistic-website-wallpaper-preview.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.bod {
+    height: 100vh;
+    color: white;
+    font-size: 70px;
+}
+
+.sbox {
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: Large;
+    margin: 25px;
+}
+
+.eg {
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: white;
+    background-image: url('https://i.redd.it/gvrw8tl2pb1d1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+
+.c {
+    margin: 50px;
+    align-content: center;
+}
+
+.z {
+    font-size: xx-large;
+    font-family: Bree serif;
+    height: 100vh;
+}
+
+.y {
+    font-size: large;
+    margin: 8px;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
+
+    #main {
+        margin-left: 216px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+        /* Smaller font for smaller screens */
+        background-color: black;
+        /* Different background color */
+    }
+}
+
+
+.r1 {
+    width: 200px;
+    height: 220px;
+    border-radius: 50px;
+}
